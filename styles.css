@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds space between the text and images */
+}
+
+.header-icon {
+    width: 40px;
+    height: 40px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007BFF;
+    margin: 0 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* Space between text and icons */
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+.nav-icon {
+    width: 20px;
+    height: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 100px; /* Ensures all labels have the same width */
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: right;
+}
+
+input, textarea, button {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none; /* Prevents resizing for a consistent layout */
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
